@@ -1,0 +1,26 @@
+[
+    {
+        "key": "1",
+        "title": "CanICamp",
+        "image": "../../assets/images/canicamp.jpeg",
+        "description": "This app allows you search for National Parks by state and make a quest map to map your own outdoor adventure.",
+        "deployedTo": "https://awolrob.github.io/Project1/",
+        "gitRepo": "https://github.com/awolrob/Project1"
+    },
+    {
+        "key": "2",
+        "title": "",
+        "image": "",
+        "description": "",
+        "deployedTo": "",
+        "gitRepo": ""    
+    },
+    {
+        "key": "3",
+        "title": "",
+        "image": "",
+        "description": "",
+        "deployedTo": "",
+        "gitRepo": ""       
+    }
+]

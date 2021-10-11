@@ -1,0 +1,21 @@
+#footerDiv {
+    background-color: #621708;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    color: #E8E9EB;
+    margin-top: 30px;
+    height: 4.5rem;
+    align-content: center;
+}
+
+.footer-icon {
+    padding: 15px;
+    /* color: ; */
+    background-color: #621708;
+}
+
+.footer-icon:hover {
+    color: #E8E9EB;
+}

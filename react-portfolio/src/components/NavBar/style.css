@@ -1,0 +1,40 @@
+#my-name {
+    color: #E8E9EB;
+    font-size: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: #621708;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #E8E9EB;
+    padding: 15px;
+    background-color: #621708;
+}
+
+header {
+    background-color: #621708;
+    padding: 20px;
+}
+.navName {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #621708;
+}
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right; 
+    padding-bottom: 0px;
+    background-color: #621708;
+}
+.nav-btn:hover {
+    background-color: #EF6461;
+    background-size: small;
+    color: #E4B363;
+    border: 1px solid 10%;
+    border-radius: 5px;
+    text-decoration: underline 1px !important;
+    text-decoration-color: black;
+}
