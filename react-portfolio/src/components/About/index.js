@@ -1,5 +1,5 @@
 import React from 'react';
-// import mypic  from '../../assets/images/mypic';
+import mypic from '../../assets/images/patpic.png';
 
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
             <div className='row'>
 
                 <div className='col-6'>
-                    {/* <img src={mypic} height='450px' width='300px' alt='This is me, standing against a wall, taking a selfie, pretending this is a professional photo.' /> */}
+                    <img src={mypic} height='450px' width='300px' alt='This is me, standing against a wall, taking a selfie, pretending this is professional.'/>
                 </div>
 
                 <div className='col-4'>

@@ -1,3 +1,4 @@
+
 #footerDiv {
     background-color: #621708;
     position: absolute;
@@ -17,5 +18,5 @@
 }
 
 .footer-icon:hover {
-    color: #E8E9EB;
+    color: blue;
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import projects from './projects.json';
+import projects from './projects.js';
 import Project from '../Projects';
-// import './style.css';
+import './style.css';
+
 
 function Portfolio () {
-
 
 
     return (
@@ -16,9 +16,8 @@ function Portfolio () {
                         description={project.description}
                         image={project.image}
                         deployedTo={project.deployedTo}
-                        gitrRepo={project.gitRepo}
+                        gitRepo={project.gitRepo}
                     />
-
                 ))}
         </div>
     )

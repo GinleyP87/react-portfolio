@@ -1,9 +1,12 @@
 .project-card img {
-    display: inline;
-    border-radius: 25px;
+    border-radius: 5px;
     margin-bottom: 10px;
     border: 3px solid black;
     background-color: #621708;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    
 }
 
 
@@ -11,26 +14,37 @@
     width: 42%;
     margin: auto;
     background-color: #621708;
-    border-radius: 25px, 0px, 25px, 0px;
+    border-radius: 5px;
     margin-top: 30px;
     padding: 20px;
     margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card div {
+    width: auto;
+    background-color: #621708;
 }
 
 .project-card p {
     color: rgb(181, 181, 181);
     background-color: #621708;
+    margin: 0;
 }
 
 .project-card a {
     color: rgb(255, 255, 255);
     background-color: #621708;
+    
+    
 }
 
 .project-card h5 {
     background-color: #621708;
     font-weight: bold, italic;
     color: rgb(77, 126, 179);
+    margin: 0;
     
 
 }

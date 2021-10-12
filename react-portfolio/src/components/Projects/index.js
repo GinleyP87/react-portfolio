@@ -5,12 +5,14 @@ import './style.css';
 function Project(props) {
     return (
         <section className='project-card'>
-            <img src={props.image} height='200px' alt='screenshot of app'></img>
+            <div>
+                <img src={props.image} height='200px' alt='screenshot of app'></img>
+            </div>
             <div>
                 <h5>{props.title}</h5>
                 <p>{props.description}</p>
-                <p>GitHub Repo: <a href={props.repo}>{props.repo}</a></p>
-                <p>Application Deployed To: <a href={props.deployed}>{props.deployed}</a></p>
+                <p>GitHub Repo: <a href={props.gitRepo}>{props.gitRepo}</a></p>
+                <p>Application Deployed To: <a href={props.deployedTo}>{props.deployedTo}</a></p>
             </div>
         </section>
     )
