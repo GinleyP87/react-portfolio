@@ -1,5 +1,6 @@
 import canicamp from "../../assets/images/canicamp.jpeg"
 import blue42 from "../../assets/images/blue-42.png"
+import stockwatch from "../../assets/images/stockwatch.png"
 import noteTaker from "../../assets/images/note-taker.png"
 import workSchedule from "../../assets/images/work-schedule.png"
 
@@ -23,7 +24,15 @@ const data =
         "gitRepo": "https://github.com/DanM1996/blue-42"    
     },
     {
-        "key": "3",
+        "key": "4",
+        "title": "Stock Watch",
+        "image": stockwatch,
+        "description": "Create an account or log in, search for stocks and save them in a dashboard where you can keep track of their trends.",
+        "deployedTo": "www.stockwatch.life",
+        "gitRepo": "https://github.com/awolrob/stock-watch"       
+    },
+    {
+        "key": "4",
         "title": "Note Taker",
         "image": noteTaker,
         "description": "This application allows you to make a note and save it so you don't forget what you have to do during the day.",
@@ -31,7 +40,7 @@ const data =
         "gitRepo": "https://github.com/GinleyP87/note-taker"       
     },
     {
-        "key": "4",
+        "key": "5",
         "title": "Work-Day Scheduler",
         "image": workSchedule,
         "description": "This application allows you to keep track of your work day by the hour. A user can simply add a note and the js in the background will turn the rows red as the hour passes. The rowes will be green if the hour has yet to pass",
