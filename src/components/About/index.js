@@ -8,15 +8,16 @@ function About() {
             <div className='row'>
 
                 <div className='col-6'>
-                    <img src={mypic} height='450px' width='300px' alt='This is me, standing against a wall, taking a selfie, pretending this is professional.'/>
+                    <img src={mypic} height='450px' width='330px' alt='This is me, standing against a wall in my house, taking a selfie, trying to look professional.'/>
                 </div>
 
-                <div className='col-4'>
-                    <p className='bio'>Going through life, I never really found something I wanted to do. My first major at Tri-C was IT Networking, and i was interested in it...
-                        unfortunately I don't think I had the attention span for college back then. I changed majors one or two more times before I stopped going.
-                        Working in nursing homes, getting into the pipefitters union, I never really felt a passion for any of that, I am on my computer a lot though.
-                        Someone got to talking to me about them changing careers and they mentioned this bootcamp that they did. The more I read into the program, and coding itself,
-                        the more videos I started watching on youtube, the more interested I became. Why wouldn't I be interested in how these things I use everyday get made and maintained. </p>
+                <div className='col-4 bio-container'>
+                    <p className='bio'>
+                        Aspiring full-stack web developer who recently earned a certificate in full-stack development through Case Western Reserve and 
+                        Trilogy Education Services. Every new project inspires and motivates me to learn and improve on methods and efficiency so that 
+                        I can produce a smooth and easily understood user experience. I’m eager to use and hone my skills in order to be a productive 
+                        part of this development community and to improve on web experiences in any way I can.
+                        </p>
                 </div>
 
             </div>

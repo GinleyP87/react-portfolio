@@ -9,6 +9,10 @@
     flex-wrap: wrap;
 }
 
+.bio-container{
+    margin: 30px;
+}
+
 .bio {
     float: left;
     margin-top: 20px;
