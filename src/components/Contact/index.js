@@ -1,68 +1,31 @@
 import React, { useState } from 'react';
 import './style.css';
-import { validateEmail } from '../../utils/helpers';
+import desktop from '../../assets/images/desktop.jpg';
 
-function ContactForm() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
-    const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!errorMessage) {
-            console.log('Submit Form', formState);
-        }
-    };
-
-    const handleChange = (e) => {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
-                setErrorMessage('Your email is invalid.');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-            console.log('Handle Form', formState);
-        }
-    };
-
+function Contact() {
     return (
-        <section>
-            <div className='contact-wrapper'>
-                <h1 data-testid="h1tag">Contact me</h1>
-                <form id="contact-form" onSubmit={handleSubmit}>
-                    <div>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" name="name" className='form-control' defaultValue={name} onBlur={handleChange} />
-                    </div>
-                    <div>
-                        <label htmlFor="email">Email address:</label>
-                        <input type="email" name="email" className='form-control' defaultValue={email} onBlur={handleChange} />
-                    </div>
-                    <div>
-                        <label htmlFor="message">Message:</label>
-                        <textarea name="message" rows="5" className='form-control' defaultValue={message} onBlur={handleChange} />
-                    </div>
-                    {errorMessage && (
-                        <div>
-                            <p className="error-text">{errorMessage}</p>
-                        </div>
-                    )}
-                    <button data-testid="button" type="submit">Submit</button>
-                </form>
+        <section className='contact-container'>
+            <div className='titleWrapper'>
+                <h1 className='contactTitle'>Contact Me</h1>
+            </div>
+            <div className='row content'>
+                <div className='col-6'>
+                    <img src={desktop} height='400px' width='600' alt='Desktop where I will reply to emails and such.'/>
+                </div>
+                    
+                <div className='contactText col-4'>
+                    <p className='contactP'>
+                        Whether it's constructive criticism or about a possible job <br/>
+                        opportuniy please feel free to reach me at my e-mail address. <br/><br/>
+                        patginleyjr@gmail.com<br/><br/>
+                        There are also various links in the footer. Please choose your <br/>
+                        most convenient mode of communication<br/>
+                        <br/>
+                    </p>    
+                </div>
             </div>
         </section>
-    );
+    )
 }
 
-export default ContactForm;
+export default Contact;

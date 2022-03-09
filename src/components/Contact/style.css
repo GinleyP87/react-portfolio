@@ -1,38 +1,40 @@
-#contact-div {
-    width: 40%;
-    margin: auto;
-    text-align: left;
-}
-
-#contact-div h2 {
-    text-align: center;
-    margin: 20px;
-}
-
-#contact-form {
-    padding: 20px;
-    border: 4px solid #E4B363;
-    border-radius: 25px;
-    width: 50%;
-    margin: 0 auto;
-    top: 20px;
-
-}
-
-
-.submit-btn {
-    background-color: #E4B363;
-    padding: 10px;
-    border: 4px solid black;
-    border-radius: 25px, 0px, 25px, 0px;
-    color: #E8E9EB;
-    font-weight: bold;
-}
-
-.submit-btn:hover {
-    background-color: #E8E9EB;
-    color: #EF6461;
+.contact-container img {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 200px;
     border: 2px solid black;
-    border-radius: 25px;
-    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactTitle{
+    margin-top: 50px;
+    margin-right: 330px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-align: right;
+}
+
+.contactText{
+    margin-top: 90px;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.contactP {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.titleWrapper{
+    margin-top: 30px;
+}
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
 }
