@@ -3,6 +3,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Nav from '../NavBar';
 import Portfolio from '../Portfolio';
+import Resume from '../Resume';
 
 function RenderedPage () {
 
@@ -16,6 +17,8 @@ function RenderedPage () {
                 return <Contact />;
             case 'Portfolio':
                 return <Portfolio />
+            case 'Resume':
+                return <Resume />
             default:
                 return <About />
         }
