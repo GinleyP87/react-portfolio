@@ -18,8 +18,8 @@ function Contact() {
                         Whether it's constructive criticism or about a possible job <br/>
                         opportuniy please feel free to reach me at my e-mail address. <br/><br/>
                         <a href = "mailto: patginleyjr@gmail.com">patginleyjr@gmail.com</a><br/><br/>
-                        View my resume here.<br/>
-                        <a href="https://docs.google.com/document/d/13Cqli-OJVVj0Uk1k59Pgj0TGAh2RqDKLQYP56UvDVI8/edit#">https://docs.google.com/document/d/13Cqli-OJVVj0Uk1k59Pgj0TGAh2RqDKLQYP56UvDVI8/edit#</a>
+                        Download my resume here.<br/>
+                        <a href="../../assets/files/resume.pdf"download="GinleyResume">Download</a>
                         <br/>
                     </p>    
                 </div>
