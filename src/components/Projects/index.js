@@ -11,6 +11,7 @@ function Project(props) {
             <div>
                 <h5>{props.title}</h5>
                 <p>{props.description}</p>
+                <p>Technologies and Concepts Used: {props.tech}</p>
                 <p>GitHub Repo: <a href={props.gitRepo}>{props.gitRepo}</a></p>
                 <p>Application Deployed To: <a href={props.deployedTo}>{props.deployedTo}</a></p>
             </div>

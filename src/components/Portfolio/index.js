@@ -14,6 +14,7 @@ function Portfolio () {
                         key={project.key}
                         title={project.title}
                         description={project.description}
+                        tech={project.tech}
                         image={project.image}
                         deployedTo={project.deployedTo}
                         gitRepo={project.gitRepo}
