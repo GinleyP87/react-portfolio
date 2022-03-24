@@ -17,9 +17,9 @@ function Contact() {
                     <p className='contactP'>
                         Whether it's constructive criticism or about a possible job <br/>
                         opportuniy please feel free to reach me at my e-mail address. <br/><br/>
-                        patginleyjr@gmail.com<br/><br/>
-                        There are also various links in the footer. Please choose your <br/>
-                        most convenient mode of communication<br/>
+                        <a href = "mailto: patginleyjr@gmail.com">patginleyjr@gmail.com</a><br/><br/>
+                        View my resume here.<br/>
+                        <a href="https://docs.google.com/document/d/13Cqli-OJVVj0Uk1k59Pgj0TGAh2RqDKLQYP56UvDVI8/edit#">https://docs.google.com/document/d/13Cqli-OJVVj0Uk1k59Pgj0TGAh2RqDKLQYP56UvDVI8/edit#</a>
                         <br/>
                     </p>    
                 </div>
