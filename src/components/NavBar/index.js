@@ -11,12 +11,12 @@ function Nav(props) {
         <header>
             <div id='nav-bar'>
                 <div className='navName'>
-                <a href="#about" id='my-name'>Patrick Ginley Jr.</a>
+                <a href="#about" id='my-name' onClick={() => props.setThisPage('About')}>Patrick Ginley Jr.</a>
                 </div>
                 <div className='navigation'>
                 <a href='#about' className='nav-btn' onClick={() => props.setThisPage('About')}>About Me</a>
-                <a href='#portfolio' target='_blank' className='nav-btn' onClick={() => props.setThisPage('Portfolio')}>Portfolio</a>
-                <a href='#contact' target='_blank' className='nav-btn' onClick={() => props.setThisPage('Contact')}>Contact Me</a>
+                <a href='#portfolio' className='nav-btn' onClick={() => props.setThisPage('Portfolio')}>Portfolio</a>
+                <a href='#contact' className='nav-btn' onClick={() => props.setThisPage('Contact')}>Contact Me</a>
                 </div>
             </div>
         </header>

@@ -15,8 +15,8 @@
 .footer-icon {
     padding: 15px;
     /* color: ; */
-    background-color: #621708;
-    color: #621708
+    background-color: #621708 !important;
+    color: #ff2a00
 }
 
 .footer-icon:hover {

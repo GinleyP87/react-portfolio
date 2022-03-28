@@ -1,7 +1,6 @@
 
 * {
   font-family: 'Sora', sans-serif;
-  background-color: #223843;
   color: #E8E9EB
 }
 .App {
@@ -41,4 +40,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html{
+  background-color: #223843;
+  background-size:cover;
+}
+
+body{
+  background-color: inherit;
 }
