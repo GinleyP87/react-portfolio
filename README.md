@@ -22,6 +22,7 @@ Clone the code from the repo, run "npm i" to install dependencies. Run "npm star
 
 </br>
 ## Contact Me</br></br>
-App Deployed at [Heroku](https://fierce-waters-57309.herokuapp.com/)</br>
+
+App Deployed through Heroku at [https://fierce-waters-57309.herokuapp.com/](https://fierce-waters-57309.herokuapp.com/)</br>
 Check out my GitHub: [GinleyP87](https://github.com/GinleyP87)<br />
 E-mail me: patginleyjr@gmail.com
